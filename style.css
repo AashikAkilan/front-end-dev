@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: darkgreen;
+
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+}
+
+ul li a:hover{
+    color: lightgreen;
+}
+.navsearchbar{
+    position: relative;
+    overflow: hidden;
+}
+.searchbar{
+    color: green;
+    background-color: white;
+    height: 62px;
+    width: 601px;
+    margin-left: 181px;
+    margin-top: 33px;
+    font-size: 31px;
+    padding: 0 20px;
+     border-radius: 20px;
+    transition: width 0.4 ease-in-out;
+    
+}
+.searchbar:hover{
+    border-color: green;
+}
+
+
+iframe{
+    display:inline-block;
+    border: 3px;
+    
+}
+img{
+    background: linear-gradient(
+        to right,
+        rgba(0,0,0,0.4)
+        rgba(0,0,0,0)
+        );
+    border-color: black;
+    border: 3px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    border: dashed;
+    border-width: revert;
+    border-color: green;
+    height: 369px;
+    width: 500px;
+    margin: 5px;
+
+}
+.item:hover{
+    opacity: 70;
+    transition: opacity 0.3s ease;
+    background-color: green;
+    color: white;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    font-size: medium;
+}

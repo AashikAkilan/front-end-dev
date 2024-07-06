@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginstyle.css">
+    <title>Login Page2</title>
+</head>
+<body>
+    <div class="login-container" style="
+        margin-top: 200px;
+        height: 500px;
+        width: 450px;
+        border-right-width: 20px;
+        padding-right: 40px;">
+        <h1>Login</h1>
+        <form action="your_login_script.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+            <a href="forgotpage.html" >forgot password?</a><br><br>
+            <a href="regpage.html" class="reg">Register</a>
+            <button type="submit">Login</button>
+            <hr>
+            <button type="submit">Login with Google</button>
+
+
+        </form>
+    </div>
+</body>
+</html>
